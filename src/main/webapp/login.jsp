@@ -23,12 +23,12 @@
             </form>
         </div>
         <div class="form-container sign-in">
-            <form>
+            <form action="Login" method="post">
                 <h1>Sign In</h1>
                 <br>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button >Sign In</button>
+                <input name="email" type="email" placeholder="Email">
+                <input name="password" type="password" placeholder="Password">
+                <button type="submit">Sign In</button>
             </form>
         </div>
         <div class="toggle-container">
