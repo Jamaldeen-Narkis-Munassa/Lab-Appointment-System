@@ -13,12 +13,13 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
+            <form action="Register" method="post">
                 <h1>Create Account</h1>
                 <br>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input name="username" type="text" placeholder="Username" required>
+                <input name="email" type="email" placeholder="Email" required>
+                <input name="nic" type="text" placeholder="Nic" required>
+                <input name="password" type="password" placeholder="Password" required>
                 <button >Sign Up</button>
             </form>
         </div>
@@ -26,8 +27,8 @@
             <form action="Login" method="post">
                 <h1>Sign In</h1>
                 <br>
-                <input name="email" type="email" placeholder="Email">
-                <input name="password" type="password" placeholder="Password">
+                <input name="email" type="email" placeholder="Email" required>
+                <input name="password" type="password" placeholder="Password" required>
                 <button type="submit">Sign In</button>
             </form>
         </div>
