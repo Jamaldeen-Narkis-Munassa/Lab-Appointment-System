@@ -30,7 +30,7 @@ public class Register extends HttpServlet {
 	            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/lab", "root", "");
 	            
 	            // Prepared statement to prevent SQL injection
-	            String query = "INSERT INTO users (username, email, nic, password, role) VALUES (?, ?, ?, ?, 'user')";
+	            String query = "INSERT INTO users (username, email, nic, password, role) VALUES (?, ?, ?, ?, 'patient')";
 	            preparedStatement = connection.prepareStatement(query);
 	            preparedStatement.setString(1, username);
 	            preparedStatement.setString(2, email);

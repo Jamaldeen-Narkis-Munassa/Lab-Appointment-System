@@ -12,7 +12,7 @@ public class RegisterDAO {
     }
  
     public boolean registerUser(String username, String email, String nic, String password) {
-        String query = "INSERT INTO users (username, email, nic, password, role) VALUES (?, ?, ?, ?, 'user')"; // Corrected SQL query
+        String query = "INSERT INTO users (username, email, nic, password, role) VALUES (?, ?, ?, ?, 'patient')"; // Corrected SQL query
         try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
         	 preparedStatement.setString(1, username);
 	         preparedStatement.setString(2, email);
