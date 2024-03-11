@@ -39,4 +39,14 @@
     <servlet-name>Register</servlet-name>
     <url-pattern>/Register</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>doctor</display-name>
+    <servlet-name>doctor</servlet-name>
+    <servlet-class>doctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>doctor</servlet-name>
+    <url-pattern>/doctor</url-pattern>
+  </servlet-mapping>
 </web-app>
