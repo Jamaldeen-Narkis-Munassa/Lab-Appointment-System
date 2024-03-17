@@ -49,4 +49,54 @@
     <servlet-name>doctor</servlet-name>
     <url-pattern>/doctor</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lab_assistant_create</display-name>
+    <servlet-name>lab_assistant_create</servlet-name>
+    <servlet-class>lab_assistant_create</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lab_assistant_create</servlet-name>
+    <url-pattern>/lab_assistant_create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lab_booking</display-name>
+    <servlet-name>lab_booking</servlet-name>
+    <servlet-class>lab_booking</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lab_booking</servlet-name>
+    <url-pattern>/lab_booking</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lab_test</display-name>
+    <servlet-name>lab_test</servlet-name>
+    <servlet-class>lab_test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lab_test</servlet-name>
+    <url-pattern>/lab_test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lab_test_register</display-name>
+    <servlet-name>lab_test_register</servlet-name>
+    <servlet-class>lab_test_register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lab_test_register</servlet-name>
+    <url-pattern>/lab_test_register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>lab_test_result</display-name>
+    <servlet-name>lab_test_result</servlet-name>
+    <servlet-class>lab_test_result</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lab_test_result</servlet-name>
+    <url-pattern>/lab_test_result</url-pattern>
+  </servlet-mapping>
 </web-app>

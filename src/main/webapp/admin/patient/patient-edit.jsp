@@ -45,7 +45,7 @@
   <!-- Sidebar Start -->
   <div class="sidebar pe-4 pb-3">
     <nav class="navbar bg-secondary navbar-dark">
-        <a href="../index.html" class="navbar-brand mx-4 mb-3">
+        <a href="../index.jsp" class="navbar-brand mx-4 mb-3">
             <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
         </a>
         <div class="d-flex align-items-center ms-4 mb-4">
@@ -59,11 +59,11 @@
             </div>
         </div>
         <div class="navbar-nav w-100">
-            <a href="../index.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a href="../index.jsp" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"><i class="fa fa-stethoscope me-2"></i>Doctors</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="../../admin/doctor/doctor-view.html" class="dropdown-item active">View Doctor</a>
+                    <a href="../../admin/doctor/doctor-view.jsp" class="dropdown-item active">View Doctor</a>
                    
                 </div>
             </div>
@@ -71,14 +71,14 @@
             <div class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-user-nurse me-2"></i>Lab Assistant</a>
               <div class="dropdown-menu bg-transparent border-0">
-                  <a href="../../admin/lab-assistant/lab-assistant-view.html" class="dropdown-item">View Lab Assistant</a>
+                  <a href="../../admin/lab-assistant/lab-assistant-view.jsp" class="dropdown-item">View Lab Assistant</a>
                  
               </div>
           </div>
             <div class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-child me-2"></i>Patient</a>
               <div class="dropdown-menu bg-transparent border-0">
-                  <a href="../../admin/patient/patient-view.html" class="dropdown-item">View Patient</a>
+                  <a href="../../admin/patient/patient-view.jsp" class="dropdown-item">View Patient</a>
                  
               </div>
           </div>
@@ -86,7 +86,7 @@
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-flask me-2"></i>Lab Tests</a>
             <div class="dropdown-menu bg-transparent border-0">
-                <a href="../../admin/lab-test/lab-test-view.html" class="dropdown-item">View Lab test</a>
+                <a href="../../admin/lab-test/lab-test-view.jsp" class="dropdown-item">View Lab test</a>
                
             </div>
         </div>
@@ -94,7 +94,7 @@
         <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-id-badge me-2"></i>Test OutPut</a>
             <div class="dropdown-menu bg-transparent border-0">
-                <a href="../../admin/test-Result/result-view.html" class="dropdown-item">View Test OutPut</a>
+                <a href="../../admin/test-Result/result-view.jsp" class="dropdown-item">View Test OutPut</a>
             
             </div>
         </div>
@@ -109,7 +109,7 @@
         <div class="content">
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
-                <a href="../index.html" class="navbar-brand d-flex d-lg-none me-4">
+                <a href="../index.jsp" class="navbar-brand d-flex d-lg-none me-4">
                     <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
                 </a>
                 <a href="#" class="sidebar-toggler flex-shrink-0">
@@ -207,7 +207,7 @@
                                     <h4 class="mb-0">Edit Patient</h4>
                                 </div>
                                 <div class="col-md-6 text-md-end">
-                                    <a href="Patient-view.html" class="btn btn-primary mb-3">Back</a>
+                                    <a href="Patient-view.jsp" class="btn btn-primary mb-3">Back</a>
                                 </div>
                             </div>
                             <hr>
