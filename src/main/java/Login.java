@@ -34,7 +34,7 @@ public class Login extends HttpServlet {
         if (!role.isEmpty()) {
             // Redirect users to their respective pages based on roles
             if (role.equals("admin")) {
-                response.sendRedirect("adminPage.jsp");
+                response.sendRedirect("admin/index.jsp");
             } else if (role.equals("patient")) {
                 response.sendRedirect("patient_Page.jsp");
             } else if (role.equals("lab_attendant")) {
