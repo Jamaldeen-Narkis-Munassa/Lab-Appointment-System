@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DarkPan - Bootstrap 5 Admin Template</title>
+   
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,7 +46,7 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="../index.jsp" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>ABC Laboratories</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -54,7 +54,7 @@
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0">Muna Doe</h6>
+                        <h6 class="mb-0">Admin</h6>
                         <span>Admin</span>
                     </div>
                 </div>
@@ -142,8 +142,8 @@
                                 <div class="d-flex align-items-center">
                                     <img class="rounded-circle" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
                                     <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Muna send you a message</h6>
-                                        <small>15 minutes ago</small>
+                                        <h6 class="fw-normal mb-0">Admin send you a message</h6>
+                                        <small>9 minutes ago</small>
                                     </div>
                                 </div>
                             </a>
@@ -152,8 +152,8 @@
                                 <div class="d-flex align-items-center">
                                     <img class="rounded-circle" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
                                     <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Muna send you a message</h6>
-                                        <small>15 minutes ago</small>
+                                        <h6 class="fw-normal mb-0">Admin send you a message</h6>
+                                        <small>11 minutes ago</small>
                                     </div>
                                 </div>
                             </a>
@@ -162,8 +162,8 @@
                                 <div class="d-flex align-items-center">
                                     <img class="rounded-circle" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
                                     <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Muna send you a message</h6>
-                                        <small>15 minutes ago</small>
+                                        <h6 class="fw-normal mb-0">Admin send you a message</h6>
+                                        <small>5 minutes ago</small>
                                     </div>
                                 </div>
                             </a>
@@ -198,7 +198,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <img class="rounded-circle me-lg-2" src="../img/user.jpg" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">John Doe</span>
+                            <span class="d-none d-lg-inline-flex">Admin</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">My Profile</a>
@@ -209,7 +209,268 @@
                 </div>
             </nav>
             <!-- Navbar End -->
+<!-- Sale & Revenue Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-line fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Today Report Upload</p>
+                                <h6 class="mb-0">234</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Total Download</p>
+                                <h6 class="mb-0">134</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-area fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Today Test</p>
+                                <h6 class="mb-0">300</h6>
+                            </div>
+                        </div>
+                    </div>
+<!--                     <div class="col-sm-6 col-xl-3"> -->
+<!--                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4"> -->
+<!--                             <i class="fa fa-chart-pie fa-3x text-primary"></i> -->
+<!--                             <div class="ms-3"> -->
+<!--                                 <p class="mb-2">Total </p> -->
+<!--                                 <h6 class="mb-0">$1234</h6> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                     </div> -->
+                </div>
+            </div>
+            <!-- Sale & Revenue End -->
 
+
+            <!-- Sales Chart Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-secondary text-center rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Worldwide labs</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <canvas id="worldwide-sales"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-4">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Calender</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <div id="calender"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sales Chart End -->
+
+
+            <!-- Recent Sales Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Recent Salse</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Test</th>
+                                    <th scope="col">Patient</th>
+                                    <th scope="col">lab Assistant Id</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01 Jan 2045</td>
+                                    <td>htbc</td>
+                                    <td>Carfeem </td>
+                                    <td>123</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01 Jan 2045</td>
+                                    <td>blood</td>
+                                    <td>Fasy</td>
+                                    <td>23</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01 Jan 2045</td>
+                                    <td>INV-0123</td>
+                                    <td>Jasry</td>
+                                    <td>$123</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01 Jan 2045</td>
+                                    <td>Sugar</td>
+                                    <td>jack</td>
+                                    <td>145</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01 Jan 2045</td>
+                                    <td>HIV</td>
+                                    <td>Ameer</td>
+                                    <td>852</td>
+                                    <td>Paid</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Recent Sales End -->
+
+
+            <!-- Widgets Start -->
+<!--             <div class="container-fluid pt-4 px-4"> -->
+<!--                 <div class="row g-4"> -->
+<!--                     <div class="col-sm-12 col-md-6 col-xl-4"> -->
+<!--                         <div class="h-100 bg-secondary rounded p-4"> -->
+<!--                             <div class="d-flex align-items-center justify-content-between mb-2"> -->
+<!--                                 <h6 class="mb-0">Messages</h6> -->
+<!--                                 <a href="">Show All</a> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-3"> -->
+<!--                                 <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 justify-content-between"> -->
+<!--                                         <h6 class="mb-0">Jhon Doe</h6> -->
+<!--                                         <small>15 minutes ago</small> -->
+<!--                                     </div> -->
+<!--                                     <span>Short message goes here...</span> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-3"> -->
+<!--                                 <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 justify-content-between"> -->
+<!--                                         <h6 class="mb-0">Jhon Doe</h6> -->
+<!--                                         <small>15 minutes ago</small> -->
+<!--                                     </div> -->
+<!--                                     <span>Short message goes here...</span> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-3"> -->
+<!--                                 <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 justify-content-between"> -->
+<!--                                         <h6 class="mb-0">Jhon Doe</h6> -->
+<!--                                         <small>15 minutes ago</small> -->
+<!--                                     </div> -->
+<!--                                     <span>Short message goes here...</span> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center pt-3"> -->
+<!--                                 <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 justify-content-between"> -->
+<!--                                         <h6 class="mb-0">Jhon Doe</h6> -->
+<!--                                         <small>15 minutes ago</small> -->
+<!--                                     </div> -->
+<!--                                     <span>Short message goes here...</span> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                     </div> -->
+                    
+<!--                     <div class="col-sm-12 col-md-6 col-xl-4"> -->
+<!--                         <div class="h-100 bg-secondary rounded p-4"> -->
+<!--                             <div class="d-flex align-items-center justify-content-between mb-4"> -->
+<!--                                 <h6 class="mb-0">To Do List</h6> -->
+<!--                                 <a href="">Show All</a> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex mb-2"> -->
+<!--                                 <input class="form-control bg-dark border-0" type="text" placeholder="Enter task"> -->
+<!--                                 <button type="button" class="btn btn-primary ms-2">Add</button> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-2"> -->
+<!--                                 <input class="form-check-input m-0" type="checkbox"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 align-items-center justify-content-between"> -->
+<!--                                         <span>Short task goes here...</span> -->
+<!--                                         <button class="btn btn-sm"><i class="fa fa-times"></i></button> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-2"> -->
+<!--                                 <input class="form-check-input m-0" type="checkbox"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 align-items-center justify-content-between"> -->
+<!--                                         <span>Short task goes here...</span> -->
+<!--                                         <button class="btn btn-sm"><i class="fa fa-times"></i></button> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-2"> -->
+<!--                                 <input class="form-check-input m-0" type="checkbox" checked> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 align-items-center justify-content-between"> -->
+<!--                                         <span><del>Short task goes here...</del></span> -->
+<!--                                         <button class="btn btn-sm text-primary"><i class="fa fa-times"></i></button> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center border-bottom py-2"> -->
+<!--                                 <input class="form-check-input m-0" type="checkbox"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 align-items-center justify-content-between"> -->
+<!--                                         <span>Short task goes here...</span> -->
+<!--                                         <button class="btn btn-sm"><i class="fa fa-times"></i></button> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                             <div class="d-flex align-items-center pt-2"> -->
+<!--                                 <input class="form-check-input m-0" type="checkbox"> -->
+<!--                                 <div class="w-100 ms-3"> -->
+<!--                                     <div class="d-flex w-100 align-items-center justify-content-between"> -->
+<!--                                         <span>Short task goes here...</span> -->
+<!--                                         <button class="btn btn-sm"><i class="fa fa-times"></i></button> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--             </div> -->
+            <!-- Widgets End -->
+
+
+            <!-- Footer Start -->
+            
+            <!-- Footer End -->
+        </div>
 
             
 
